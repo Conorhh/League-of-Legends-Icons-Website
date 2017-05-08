@@ -1,0 +1,473 @@
+
+#landing_container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image:url(../images/Landing_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing_title_container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:center;
+	font-size: 1.7em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 54%;
+	height: 20%;
+	
+	
+}
+
+#left_title_icon{
+	width: 1.2em;
+	padding-right: 0.6em;
+	padding-top: 0.3em;
+}
+
+
+h1{
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 800; 
+	color: #fff;
+	
+}
+
+h2{
+	font-family: 'Gentium Basic', serif;
+	color: #fff;
+	font-weight: 300;
+	font-kerning: 1em
+	 
+}
+
+/*END OF LANDING PAGE CSS*/
+
+
+#artwork_container{
+	
+height: 100vh;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.icon_side_mord{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/mord_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_mord{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/mord_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+.caption_box{
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: #141414;
+}
+
+
+h3{
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 800; 
+	color: #e5e5e5;
+}
+
+p{
+	color: #d1d1d1;
+	
+}
+.caption_text{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 1.2em;
+	
+
+}
+
+
+.line_serperator_body{
+	
+height:1px;
+background:#ccc;
+border-bottom:3px solid #ccc;
+width:50%;
+align-self: center;
+margin-top: -15px;
+	
+}
+
+
+.footer{
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #bababa;
+
+}
+
+
+.footer_contents{
+	
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	
+}
+
+p1{
+	font-size: 1.3em;
+	color: #fff;
+}
+
+p2{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 800; 
+	color: #e5e5e5;
+}
+
+
+
+
+
+
+.btn {
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+/*////////////////////////////////////////////////////////START OF REPETITIVE CSS//////*/
+
+
+.icon_side_amu{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/amu-icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_amu{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/amu_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+
+.icon_side_cork{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/corki-icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_cork{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/corki_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+
+.icon_side_fizz{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/fizz_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_fizz{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/fizz_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+.icon_side_jax{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/jax_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_jax{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/jax_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+.icon_side_yi{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/yi_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_yi{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/yi_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+
+.icon_side_olaf{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/olaf_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_olaf{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/olaf_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+
+.icon_side_pantheon{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/pantheon-icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_pantheon{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/pantheon_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+.icon_side_shaco{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/shaco_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_shaco{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/shaco_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+.icon_side_veigar{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/veigar_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_veigar{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/veigar_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+
+
+.icon_side_zed{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/zed_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_zed{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/zed_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+
+
+.icon_side_ziggs{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/ziggs_icon.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+	
+}
+
+.reference_art_side_ziggs{
+	height: 100vh;
+	width: 50%;
+	background-image:url(../images/ziggs_reference.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: center; 
+}
+
+
+/*Media Queries*/
+
+/*Macbook Pro Retina*/
+
+@media screen and (min-width: 2560px){
+    
+    
+    .caption_box{
+    height: 30vh;
+}
+
+
+h3{
+	text-align: center;
+	font-size: 4em;
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 800; 
+	color: #e5e5e5;
+}
+
+p{
+	color: #d1d1d1;
+    font-size: 2em;
+	
+}
+.caption_text{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 4em;
+	
+
+}
+
+
+p1{
+	font-size: 2.1em;
+	color: #fff;
+}
+
+p2{
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 800; 
+	color: #e5e5e5;
+}
+
+
+    
+    
+    
+}
